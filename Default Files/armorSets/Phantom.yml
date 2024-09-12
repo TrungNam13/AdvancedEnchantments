@@ -2,7 +2,7 @@
 # These sets are fully creatable, to create your own simply copy this file, rename it and edit it however you want!
 
 # ** Set Materials:
-# * LEATHER (change-able color) https://github.com/GC-spigot/AdvancedEnchantments/wiki/Æ-Colored-Leather-Armor
+# * LEATHER (change-able color) https://github.com/GC-spigot/AdvancedEnchantments/wiki/Ã†-Colored-Leather-Armor
 # * IRON
 # * GOLD
 # * CHAIN
@@ -66,14 +66,14 @@ items:
       - '&cDeal +25% damage to all enemies.'
       - '&7&o(Requires all 4 phantom items.)'
     enchants: # Supports AdvancedEnchantments CE
-      - "protection:4"
-      - "unbreaking:3"
+      - "protection:10"
+      - "unbreaking:5"
       - "drunk:%1-4%"
-      - "armored:%1-4%"
+      - "armored:%1-20%"
       - "enlighted:%1-3%"
-      - "implants:%1-3%"
+      - "implants:%1-5%"
       - "angelic:%1-5%"
-      - "tank:%1-4%"
+      - "tank:%1-10%"
   chestplate:
     name: '&c&lPhantom Shroud'
     # Custom Model Data (for 1.13+ servers with custom item packs)
@@ -90,14 +90,14 @@ items:
       - '&cDeal +25% damage to all enemies.'
       - '&7&o(Requires all 4 phantom items.)'
     enchants: # Supports AdvancedEnchantments CE
-      - "protection:4"
-      - "unbreaking:3"
-      - "armored:%1-4%"
-      - "enlighted:%1-3%"
-      - "overload:%1-3%"
-      - "dodge:%1-4%"
-      - "angelic:%1-5%"
-      - "tank:%1-4%"
+      - "protection:10"
+      - "unbreaking:5"
+      - "armored:%1-10%"
+      - "enlighted:%1-5%"
+      - "overload:%1-10%"
+      - "dodge:%1-10%"
+      - "angelic:%1-10%"
+      - "tank:%1-10%"
   leggings:
     name: '&c&lPhantom Robeset'
     # Custom Model Data (for 1.13+ servers with custom item packs)
@@ -114,15 +114,16 @@ items:
       - '&cDeal +25% damage to all enemies.'
       - '&7&o(Requires all 4 phantom items.)'
     enchants: # Supports AdvancedEnchantments CE
-      - "protection:4"
-      - "unbreaking:3"
-      - "deathbringer:%1-3%"
-      - "armored:%1-4%"
-      - "enlighted:%1-3%"
-      - "obsidianshield:1"
-      - "angelic:%1-5%"
-      - "cactus:%1-2%"
-      - "tank:%1-4%"
+      - "protection:10"
+      - "unbreaking:5"
+      - "armored:%1-10%"
+      - "enlighted:%1-5%"
+      - "overload:%1-10%"
+      - "dodge:%1-10%"
+      - "angelic:%1-10%"
+      - "tank:%1-10%"
+      - "obsidianshield:5"
+      - "cactus:%1-5%"
   boots:
     name: '&c&lPhantom Sandals'
     # Custom Model Data (for 1.13+ servers with custom item packs)
@@ -139,17 +140,20 @@ items:
       - '&cDeal +25% damage to all enemies.'
       - '&7&o(Requires all 4 phantom items.)'
     enchants: # Supports AdvancedEnchantments CE
-      - "protection:4"
-      - "unbreaking:3"
+      - "protection:10"
+      - "unbreaking:5"
+      - "armored:%1-10%"
+      - "enlighted:%1-5%"
+      - "overload:%1-10%"
+      - "dodge:%1-10%"
+      - "angelic:%1-10%"
+      - "tank:%1-10%"
       - "deathbringer:%1-3%"
-      - "armored:%1-4%"
-      - "enlighted:%1-3%"
       - "gears:%1-3%"
       - "springs:%1-3%"
-      - "tank:%1-4%"
       - "rocketescape:%1-3%"
 events:
   ATTACK:
     chance: 100
     effects:
-      - 'INCREASE_DAMAGE:25'
+      - 'INCREASE_DAMAGE:30'
